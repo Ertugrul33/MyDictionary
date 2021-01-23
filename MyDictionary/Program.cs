@@ -8,11 +8,15 @@ namespace MyDictionary
         static void Main(string[] args)
         {
             Dictionary<int, string> ogrenci1 = new Dictionary<int, string>();
-            ogrenci1.Add(101, "Engin");
+            ogrenci1.Add(101, "Engin Demiroğ");
+            ogrenci1.Add(102, "Ertuğrul EŞOL");
+            ogrenci1.Add(103, "Samet KARASU");
             Console.WriteLine(ogrenci1.Count);
 
             MyDictionary<int, string> ogrenci2 = new MyDictionary<int, string>();
-            ogrenci2.Add(102, "Ertuğrul");
+            ogrenci2.Add(101, "Engin Demiroğ");
+            ogrenci2.Add(102, "Ertuğrul EŞOL");
+            ogrenci2.Add(103, "Samet KARASU");
             Console.WriteLine(ogrenci2.Count);
         }
     }
